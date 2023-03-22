@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924106693776",
+    "project_id": "btech-papers-application",
+    "storage_bucket": "btech-papers-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924106693776:android:81de4ab51d0d0ee6674c15",
+        "android_client_info": {
+          "package_name": "com.application.btechpapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924106693776-pi9deb4om93llnpsee6ouoc2fb39545u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1YXoixCRaYoyqwi88tSVYwTrqG1uscpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924106693776-pi9deb4om93llnpsee6ouoc2fb39545u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

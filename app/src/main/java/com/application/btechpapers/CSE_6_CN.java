@@ -1,0 +1,24 @@
+package com.application.btechpapers;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
+public class CSE_6_CN extends AppCompatActivity {
+
+    private WebView webView;
+
+    protected void onCreate (Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.webviewcontainer);
+
+        webView = (WebView) findViewById(R.id.webviewcontain);
+        webView.setWebViewClient(new WebViewClient());
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setAllowFileAccess(true);
+        webView.getSettings().setAllowContentAccess(true);
+        webView.loadUrl("https://drive.google.com/drive/folders/1U2hQPx59pBeTVg9fvu2ReFiVO8OgI8O0?usp=sharing");
+    }
+}

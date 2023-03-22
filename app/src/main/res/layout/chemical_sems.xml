@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:id="@+id/chemicalsems">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffff"
+            android:orientation="vertical"
+            android:padding="15dp"
+            tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_light"
+                    android:text="Chemical Engineering Semesters"
+                    android:textColor="#000"
+
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <!--        1st Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    ads:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/red_gradient"
+                        android:onClick="Chem1sub"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/chemical1stSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="1st Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--         1st Sem ENDS HERE-->
+
+            <!--        2nd Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    ads:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="Chem2sub"
+                        android:background="@drawable/purple_gradient"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/chemical2ndSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:onClick="Mecha2Subs"
+                            android:text="2nd Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        2nd sem ENDS HERE-->
+
+            <!--        3rd Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    ads:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/yellow_gradient"
+                        android:onClick="Chem3sub"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/chemical3rdSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="3rd Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--         3rd Sem ENDS HERE-->
+
+            <!--        4th Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+
+                    ads:cardCornerRadius="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/green_gradient"
+                        android:onClick="Chem4sub"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/chemical4thSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="4th Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--         4th Sem ENDS HERE-->
+
+            <!--        5th Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    ads:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="Chem5sub"
+                        android:background="@drawable/orange_gradient"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/chemical5thSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="5th Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        5th sem ENDS HERE-->
+
+            <!--        6th Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    ads:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/purple_gradient"
+                        android:onClick="Chem6sub"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/chemical6thSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="6th Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--         6th Sem ENDS HERE-->
+
+
+            <!--        7th Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="20dp"
+                    ads:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="Chem7sub"
+                        android:background="@drawable/mast_gradient"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/Chemical7thSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="7th Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        7th sem ENDS HERE-->
+
+            <!--        8th Sem STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    ads:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_style"
+                        android:onClick="Chem8sub"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/Chemical8thSem"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="8th Semester"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--         8th Sem ENDS HERE-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

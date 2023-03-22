@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+
+    android:id="@+id/mainContent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffff"
+            android:orientation="vertical"
+
+            android:padding="15dp"
+            tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_light"
+                    
+                    android:text="B.Tech Papers"
+                    android:textColor="#000"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:fontFamily="@font/comfortaa_light"
+                    android:text="@string/tag_line"
+                    android:textColor="#272727"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <!--        SYLLABUS STARTS HERE-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/SyllabusClick"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/red_gradient"
+                        android:onClick="SyllabusOnClick"
+
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/syllabus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Syllabus"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/syllabus" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        SYLLABUS ENDS HERE-->
+
+            <!--        Branches STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/EBranches"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/purple_gradient"
+                        android:onClick="engbranches"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/branches"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Previous Year \nQuestion Papers"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/eb" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        Branches ENDS HERE-->
+
+
+            <!--        NOTICE BOARD STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/mast_gradient"
+                        android:onClick="Notice"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/noticeboard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Notice Board"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/nb" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        NOTICE BOARD ENDS HERE-->
+
+
+            <!--        CIE's BOARD STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/green_gradient"
+                        android:onClick="Internal"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/classtest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Internal Class \nTests"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/cie" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        NOTICE BOARD ENDS HERE-->
+
+
+            <!--        STUDY MATERIALS BOARD STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/showInter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/orange_gradient"
+                        android:onClick="studymaterials"
+                        android:padding="10dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Study Materials"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/sm" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        STUDY MATERIALS BOARD ENDS HERE-->
+
+
+            <!--        PLACEMENT SERIES STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:id="@+id/placement"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_style"
+                        android:onClick="liveSoon"
+                        android:padding="10dp">
+
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Placement \nPreparation"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/placement" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        PLACEMENT SERIES ENDS HERE-->
+
+
+
+
+
+            <!--        RESULTS STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/purple_gradient"
+                        android:onClick="Result"
+
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/results"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="Results"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/result" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--        RESULTS ENDS HERE-->
+
+            <!--        ABOUT ME STARTS HERE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="45dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/organic_gradient"
+                        android:onClick="about_us"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/aboutme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/comfortaa_light"
+                            android:text="About Us"
+                            android:textColor="#fff"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+
+                        <ImageView
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_alignParentRight="true"
+                            android:maxHeight="100dp"
+                            android:src="@drawable/aboutus" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <!--        ABOUT ME ENDS HERE-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"></LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <!--    Admob Banner Ads-->
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5384391241230668/1508892713">
+
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

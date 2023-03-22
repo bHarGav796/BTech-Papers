@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/drawable/custom_button.xml" value="0.1455" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/drawable/ic_baseline_privacy_tip_24.xml" value="0.1515" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/drawable/pdf.xml" value="0.1455" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/about_uss.xml" value="0.264" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/activity_cse1_eg.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/activity_main.xml" value="0.23796296296296296" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/activity_splash.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/aec_college_branches.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/aec_cse_cie_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/aec_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/appbar_home_drawer.xml" value="0.25833333333333336" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/branches_fragment.xml" value="0.23796296296296296" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/chem1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/chem2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/chem3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/chemical_first_sem.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/chemical_sems.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil6_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/civil_sems.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/colleges.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/content_home.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse1_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse3_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse4_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse5_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse6_subjects.xml" value="0.264" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse7_subjects.xml" value="0.4724264705882353" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse8_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/cse_sems.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical6_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electrical_sems.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/electronics_sems.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/etc7_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/gimt_college_branches.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/gimt_cse_sems.xml" value="0.2453125" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/headerfile.xml" value="0.25833333333333336" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instru1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instru2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instru3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instru4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instru5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instru7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instru8_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/instrumentation_sems.xml" value="0.264" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec_1st__sem.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec__cie.xml" value="0.2453125" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec__sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec_civil_sems.xml" value="0.264" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec_college_branches.xml" value="0.25" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec_electrical_cie.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec_instru_cie.xml" value="0.2453125" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/jec_mechanical_sems.xml" value="0.2453125" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mecha1_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mecha2_subs.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mecha3_subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mechanical4_subjects.xml" value="0.264" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mechanical5__subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mechanical6__subjects.xml" value="0.264" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mechanical7__subjects.xml" value="0.264" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mechanical8__subjects.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mechanical__second__sem__subs.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/mechanical_sems.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/syllabus.xml" value="0.22826086956521738" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/toolbar.xml" value="0.25833333333333336" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/layout/webviewcontainer.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/menu/example_menu.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/17th April, App/BtechPapers/app/src/main/res/menu/sidemenu.xml" value="0.2128205128205128" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/drawable/layout_bg.xml" value="0.1205" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/drawable/round_back_secondary_100.xml" value="0.1" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/about_uss.xml" value="0.264" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/aec_college_branches.xml" value="0.1925925925925926" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/aec_cse_cie_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/aec_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/branches_fragment.xml" value="0.2" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chem1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chem3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chem4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chem5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chem6_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chem7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chem8_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chemical_first_sem.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/chemical_sems.xml" value="0.1910569105691057" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil6_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil8_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/civil_syllabus_webview.xml" value="0.2453125" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/colleges.xml" value="0.2" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse6_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse8_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/cse_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical6_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical8_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electrical_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/electronics_sems.xml" value="0.16397760948304246" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc6_subjects.xml" value="0.264" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/etc8_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/gimt_college_branches.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/gimt_cse_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/google_integration.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru2_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru5_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru6_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru7_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instru8_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/instrumentation_sems.xml" value="0.264" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/jec__cie.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/jec__sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/jec_civil_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/jec_college_branches.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/jec_electrical_cie.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/jec_instru_cie.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/jec_mechanical_sems.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/login.xml" value="0.264" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mecha1_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mecha2_subs.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mecha3_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mechanical4_subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mechanical5__subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mechanical6__subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mechanical7__subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mechanical8__subjects.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/mechanical_sems.xml" value="0.16785714285714284" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/premium_class_notes.xml" value="0.2" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/premium_cse.xml" value="0.2453125" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/premium_cse_sems.xml" value="0.2453125" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/register.xml" value="0.264" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/study_materials.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/layout/syllabus2.xml" value="0.259375" />
+        <entry key="..\:/PROJECT/BtechPapers/app/src/main/res/menu/example_menu.xml" value="0.264" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BTECHP/app/src/main/res/layout/activity_main.xml" value="0.1171875" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/drawable/ic_btech_papersss.xml" value="0.1575" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/activity_main.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/activity_splash.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/branches_fragment.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem1_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem2_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem3_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem4_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem5_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem6_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem7_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chem8_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/chemical_sems.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil1_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil2_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil3_subjects.xml" value="0.264" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil4_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil5_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil6_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil7_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil8_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/civil_sems.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse1_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse2_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse3_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse4_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse5_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse6_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse7_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse8_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/cse_sems.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical1_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical2_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical3_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical4_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical5_subjects.xml" value="0.2" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical6_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical7_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical8_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electrical_sems.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/electronics_sems.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc1_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc2_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc3_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc4_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc5_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc6_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc7_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/etc8_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru1_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru2_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru3_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru4_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru5_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru6_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru7_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instru8_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/instrumentation_sems.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mecha1_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mecha2_subs.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mecha3_subjects.xml" value="0.264" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mechanical4_subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mechanical5__subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mechanical6__subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mechanical7__subjects.xml" value="0.264" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mechanical8__subjects.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/mechanical_sems.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/syllabus.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/layout/webviewcontainer.xml" value="0.25905797101449274" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.128" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/BtechPapers/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.128" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/drawable/circle.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/drawable/ic_website.xml" value="0.17777777777777778" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/branches_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/chemical_first_sem.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/chemical_sems.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/civil_sems.xml" value="0.1" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/cse_sems.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/electrical_sems.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/electronics_sems.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/fragment_semester.xml" value="0.2" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/ic_back.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/mecha1_subjects.xml" value="0.264" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/mecha2_subs.xml" value="0.2" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/mecha3_subjects.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/mechanical__first__sem__subjects.xml" value="0.264" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/mechanical__second__sem__subs.xml" value="0.2" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/mechanical_sems.xml" value="0.2" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/rectangle_blue.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/sr922/AndroidStudioProjects/PolytechnicPapers/app/src/main/res/layout/syllabus.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".CivilSyllabusSems">
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="#fff">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Civil Engineering Syllabus"
+                android:textSize="25dp"
+                android:textColor="#000"
+                android:fontFamily="@font/comfortaa_light"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="1st Semester"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:onClick="C1S"
+            app:icon="@drawable/sem1" />
+
+        <Button
+
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:id="@+id/Civil2ndSemButton"
+            app:icon="@drawable/sem2"
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="2nd Semester"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:onClick="Civil2ndSyllabusClick"
+            android:textStyle="bold"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/sem3"
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="3rd Semester"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:onClick="Civil3rdSyllabusClick"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/sem4"
+            android:id="@+id/Civil4thSemButton"
+            android:background="@drawable/custom_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="4th Semester"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:onClick="Civil4thSyllabusClick"
+            android:textStyle="bold"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/sem5"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/holo_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="5th Semester"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:onClick="Civil5thSyllabusClick"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/sem6"
+            android:background="@drawable/custom_button"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="6th Semester"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:onClick="Civil6thSyllabusClick"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/sem7"
+            android:background="@drawable/custom_button"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="7th Semester"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:onClick="Civil7thSyllabusClick"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:icon="@drawable/sem8"
+            android:background="@drawable/custom_button"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_light"
+            android:text="8th Semester"
+            android:textColor="#fff"
+            android:onClick="Civil8thSyllabusClick"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="45dp"
+            android:textStyle="bold"/>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
