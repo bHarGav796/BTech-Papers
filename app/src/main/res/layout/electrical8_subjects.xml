@@ -8,7 +8,7 @@
     tools:context=".Electrical8Subjects">
 
     <ScrollView android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:fillViewport="true">
 
@@ -34,6 +34,7 @@
             android:layout_marginEnd="5dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/rectangle_white"
+            android:onClick="ELEC_8_IE"
             android:elevation="3dp">
 
             <ImageView
@@ -60,7 +61,7 @@
                     android:layout_height="wrap_content"
                     android:elevation="3dp"
 
-                    android:text="Program Elective-5"
+                    android:text="Illumination Engineering"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/about_above_txt_size" />
 
@@ -91,6 +92,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
+            android:onClick="ELEC_8_PSI"
             android:background="@drawable/rectangle_white"
             android:elevation="3dp">
 
@@ -118,8 +120,7 @@
                     android:layout_height="wrap_content"
                     android:elevation="3dp"
 
-                    android:text="Program Elective-6
-"
+                    android:text="Power System Instrumentation"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/about_above_txt_size" />
 
@@ -150,6 +151,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
+            android:onClick="ELEC_8_RI"
             android:background="@drawable/rectangle_white"
             android:elevation="3dp">
 
@@ -177,9 +179,7 @@
                     android:layout_height="wrap_content"
                     android:elevation="3dp"
 
-                    android:text="Program Elective-7
-
-"
+                    android:text="Reliability Engineering"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/about_above_txt_size" />
 
@@ -211,6 +211,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
+            android:onClick="ELEC_8_SGI"
             android:layout_marginBottom="10dp"
             android:background="@drawable/rectangle_white"
             android:elevation="3dp">
@@ -240,7 +241,7 @@
                     android:elevation="3dp"
 
 
-                    android:text="Open Elective-4"
+                    android:text="Smart Grid Technology"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/about_above_txt_size" />
 

@@ -16,6 +16,24 @@
         android:theme="@style/Theme.PolytechnicPapers"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ELEC_6_DIP"
+            android:exported="false" />
+        <activity
+            android:name=".ELEC_6_OTE"
+            android:exported="false" />
+        <activity
+            android:name=".ELEC_8_SGI"
+            android:exported="false" />
+        <activity
+            android:name=".ELEC_8_RI"
+            android:exported="false" />
+        <activity
+            android:name=".ELEC_8_PSI"
+            android:exported="false" />
+        <activity
+            android:name=".ELEC_8_IE"
+            android:exported="false" />
+        <activity
             android:name=".ForgetPassword"
             android:exported="false" />
         <activity

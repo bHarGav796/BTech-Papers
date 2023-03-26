@@ -1842,6 +1842,16 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         startActivity(intent);
     }
 
+    public void ELEC_6_OTE(View v) {
+        Intent intent = new Intent(getApplicationContext(), ELEC_6_OTE.class);
+        startActivity(intent);
+    }
+
+    public void ELEC_6_DIP(View v) {
+        Intent intent = new Intent(getApplicationContext(), ELEC_6_DIP.class);
+        startActivity(intent);
+    }
+
 //    ELectrical 7th Sem OnClick
 
     public void ELEC_7_PowerSystemIV(View v) {
@@ -1866,8 +1876,28 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         startActivity(intent);
     }
 
+//Electrical 8th OnClick
 
 
+    public void ELEC_8_IE(View v) {
+        Intent intent = new Intent(getApplicationContext(), ELEC_8_IE.class);
+        startActivity(intent);
+    }
+
+    public void ELEC_8_PSI(View v) {
+        Intent intent = new Intent(getApplicationContext(), ELEC_8_PSI.class);
+        startActivity(intent);
+    }
+
+    public void ELEC_8_RI(View v) {
+        Intent intent = new Intent(getApplicationContext(), ELEC_8_RI.class);
+        startActivity(intent);
+    }
+
+    public void ELEC_8_SGI(View v) {
+        Intent intent = new Intent(getApplicationContext(), ELEC_8_SGI.class);
+        startActivity(intent);
+    }
 
 
 

@@ -92,7 +92,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
-            android:onClick="Electrical_6_PS"
+            android:onClick="Electrical_6_ED"
             android:background="@drawable/rectangle_white"
             android:elevation="3dp">
 
@@ -211,6 +211,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
+            android:onClick="ELEC_6_OTE"
             android:background="@drawable/rectangle_white"
             android:elevation="3dp">
 
@@ -237,9 +238,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:elevation="3dp"
-
-
-                    android:text="Program Elective-2"
+                    android:text="Optimization Techniques in \nEngineering"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/about_above_txt_size" />
 
@@ -271,6 +270,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="5dp"
+            android:onClick="ELEC_6_DIP"
             android:background="@drawable/rectangle_white"
             android:elevation="3dp">
 
@@ -301,7 +301,7 @@
                     android:elevation="3dp"
 
 
-                    android:text="Open Elective-2"
+                    android:text="Digital Image Processing"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/about_above_txt_size" />
 

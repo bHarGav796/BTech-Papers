@@ -1,18 +1,18 @@
 package com.application.btechpapers;
 
-        import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
-        import android.content.Intent;
-        import android.graphics.Bitmap;
-        import android.net.Uri;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.webkit.DownloadListener;
-        import android.webkit.WebView;
-        import android.webkit.WebViewClient;
-        import android.widget.ProgressBar;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.net.Uri;
+import android.os.Bundle;
+import android.view.View;
+import android.webkit.DownloadListener;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 
-public class Electrical_2_BEE extends AppCompatActivity {
+public class ELEC_6_DIP extends AppCompatActivity {
 
     public WebView webView;
     public ProgressBar progressBar;
@@ -29,7 +29,7 @@ public class Electrical_2_BEE extends AppCompatActivity {
         webView.getSettings().setAllowContentAccess(true);
 
 
-        webView.loadUrl("https://drive.google.com/drive/folders/1iPLZOhOTcp-W2UyFR2VxuLs5q54mAOs4?usp=sharing");
+        webView.loadUrl("https://drive.google.com/open?id=1KWKG83Bv-2KZW6SUmfS3R252EMFq3rHs&authuser=btechpapers777%40gmail.com&usp=drive_fs");
         webView.setWebViewClient(new WebViewClient(){
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
