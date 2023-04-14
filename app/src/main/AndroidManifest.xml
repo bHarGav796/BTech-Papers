@@ -16,6 +16,42 @@
         android:theme="@style/Theme.PolytechnicPapers"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ETC_4_ES"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_4_Instru"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_4_EEM"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_4_AnalogC"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_4_AE"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_4_NMC"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_4_AC"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_4_LARP"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_6_DSPC"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_6_AM"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_6_EW"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_6_AP"
+            android:exported="false" />
+        <activity
             android:name=".ETC_8_ML"
             android:exported="false" />
         <activity

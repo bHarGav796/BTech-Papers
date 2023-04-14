@@ -1934,6 +1934,51 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         startActivity(intent);
     }
 
+
+//    Electronics 4th Sem
+
+    public void ETC_4_LARP(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_LARP.class);
+        startActivity(intent);
+    }
+
+    public void ETC_4_AC(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_AC.class);
+        startActivity(intent);
+    }
+
+    public void ETC_4_NMC(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_NMC.class);
+        startActivity(intent);
+    }
+
+    public void ETC_4_AE(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_AE.class);
+        startActivity(intent);
+    }
+
+    public void ETC_4_AnalogC(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_AnalogC.class);
+        startActivity(intent);
+    }
+
+    public void ETC_4_EEM(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_EEM.class);
+        startActivity(intent);
+    }
+
+    public void ETC_4_Instru(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_Instru.class);
+        startActivity(intent);
+    }
+
+    public void ETC_4_ES(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_4_ES.class);
+        startActivity(intent);
+    }
+
+
+
 //ELECTRONICS 5th SEM
 
 
@@ -1967,6 +2012,32 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         startActivity(intent);
     }
 
+//Electronics 6th Sem
+
+    public void ETC_6_DSPC(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_6_DSPC.class);
+        startActivity(intent);
+    }
+
+    public void ETC_6_AP(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_6_AP.class);
+        startActivity(intent);
+    }
+
+    public void ETC_6_EW(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_6_EW.class);
+        startActivity(intent);
+    }
+
+    public void ETC_6_AM(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_6_AM.class);
+        startActivity(intent);
+    }
+
+    public void ETC_6_ACCN(View v) {
+        Intent intent = new Intent(getApplicationContext(), Electrical_6_ACCN.class);
+        startActivity(intent);
+    }
 
 
 

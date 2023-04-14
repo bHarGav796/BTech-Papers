@@ -12,7 +12,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
-public class ETC_8_ML extends AppCompatActivity {
+public class ETC_6_EW extends AppCompatActivity {
 
     public WebView webView;
     public ProgressBar progressBar;
@@ -29,7 +29,7 @@ public class ETC_8_ML extends AppCompatActivity {
         webView.getSettings().setAllowContentAccess(true);
 
 
-        webView.loadUrl("https://drive.google.com/open?id=1r76nR9wo0-xcbsKSkoJYLyKgERYtH4Gm&authuser=btechpapers777%40gmail.com&usp=drive_fs");
+        webView.loadUrl("https://drive.google.com/open?id=1rwkMWVLdk2iNS6DmMamqYekSrHhOu4uF&authuser=btechpapers777%40gmail.com&usp=drive_fs");
         webView.setWebViewClient(new WebViewClient(){
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
