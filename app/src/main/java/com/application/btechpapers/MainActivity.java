@@ -2003,7 +2003,37 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         startActivity(intent);
     }
 
+//Electronics 8th Sem
 
+    public void ETC_8_AWP(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_8_AWP.class);
+        startActivity(intent);
+    }
+
+    public void ETC_8_MC(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_8_MC.class);
+        startActivity(intent);
+    }
+
+    public void ETC_8_ACA(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_8_ACA.class);
+        startActivity(intent);
+    }
+
+    public void ETC_8_BE(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_8_BE.class);
+        startActivity(intent);
+    }
+
+    public void ETC_8_MSD(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_8_MSD.class);
+        startActivity(intent);
+    }
+
+    public void ETC_8_ML(View v) {
+        Intent intent = new Intent(getApplicationContext(), ETC_8_ML.class);
+        startActivity(intent);
+    }
 
 
 

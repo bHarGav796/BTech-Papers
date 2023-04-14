@@ -16,6 +16,24 @@
         android:theme="@style/Theme.PolytechnicPapers"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ETC_8_ML"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_8_MSD"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_8_BE"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_8_ACA"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_8_MC"
+            android:exported="false" />
+        <activity
+            android:name=".ETC_8_AWP"
+            android:exported="false" />
+        <activity
             android:name=".ELEC_6_DIP"
             android:exported="false" />
         <activity

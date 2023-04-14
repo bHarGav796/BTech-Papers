@@ -33,6 +33,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginTop="10dp"
+                android:onClick="ETC_8_AWP"
                 android:background="@drawable/rectangle_white"
                 android:elevation="3dp">
 
@@ -91,6 +92,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
+                android:onClick="ETC_8_MC"
                 android:background="@drawable/rectangle_white"
                 android:elevation="3dp">
 
@@ -149,6 +151,7 @@
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
+                android:onClick="ETC_8_ACA"
                 android:background="@drawable/rectangle_white"
                 android:elevation="3dp">
 
@@ -176,7 +179,7 @@
                         android:layout_height="wrap_content"
                         android:elevation="3dp"
 
-                        android:text="Program Elective-3"
+                        android:text="Advanced Computer Architecture"
                         android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/about_above_txt_size" />
 
@@ -209,6 +212,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
                 android:layout_marginBottom="10dp"
+                android:onClick="ETC_8_BE"
                 android:background="@drawable/rectangle_white"
                 android:elevation="3dp">
 
@@ -237,7 +241,7 @@
                         android:elevation="3dp"
 
 
-                        android:text="Open Elective-3"
+                        android:text="Biomedical Electronics"
                         android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/about_above_txt_size" />
 
@@ -263,6 +267,127 @@
             </RelativeLayout>
 
 
+            <RelativeLayout
+                android:id="@+id/Mecha2ndSemMathematics"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:onClick="ETC_8_MSD"
+                android:background="@drawable/rectangle_white"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:id="@+id/imWebsiteLogo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/circle"
+                    android:padding="12dp"
+                    android:src="@drawable/pdf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:layout_toLeftOf="@+id/imArrow5"
+                    android:layout_toRightOf="@+id/imWebsiteLogo"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="3dp"
+
+                        android:text="Mixed Signal Design"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/about_above_txt_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="3dp"
+
+                        android:text="Previous Years Question Papers"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/about_below_txt_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imArrow5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_arrow" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/Mecha2ndSemCommunication"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:onClick="ETC_8_ML"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rectangle_white"
+                android:elevation="3dp">
+
+                <ImageView
+                    android:id="@+id/imPrivacyPolicy"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/circle"
+                    android:padding="12dp"
+                    android:src="@drawable/pdf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="10dp"
+                    android:layout_toLeftOf="@+id/imArrow8"
+                    android:layout_toRightOf="@+id/imPrivacyPolicy"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="3dp"
+
+
+                        android:text="Machine Learning"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/about_above_txt_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="3dp"
+
+
+                        android:text="Previous Years Question Papers"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/about_below_txt_size" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imArrow8"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_arrow" />
+            </RelativeLayout>
 
 
 
