@@ -29,7 +29,7 @@ public class Mech_4_AE extends AppCompatActivity {
         webView.getSettings().setAllowContentAccess(true);
 
 
-        webView.loadUrl("https://drive.google.com/drive/folders/1d589gnTP7zN6fFecdmV6qDVpZkWTq_k_?usp=sharing");
+        webView.loadUrl("https://drive.google.com/open?id=1JtOkt5tbUfRrnBR2UefI-ZyZLl2IKSsd&authuser=btechpapers777%40gmail.com&usp=drive_fs");
         webView.setWebViewClient(new WebViewClient(){
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {

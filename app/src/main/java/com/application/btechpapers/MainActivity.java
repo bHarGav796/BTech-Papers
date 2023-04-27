@@ -2415,7 +2415,7 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
 
 
 
-//  MECHANICAL CIE SEMS
+//  JEC MECHANICAL CIE SEMS
 
     public void JEC_Mecha_1_CIE(View v) {
         Intent intent = new Intent(getApplicationContext(), JEC_Mecha_1_CIE.class);
@@ -2451,7 +2451,7 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
     }
 
 
-//  CIVIL CIE SEMS
+// JEC CIVIL CIE SEMS
 
     public void JEC_Civil_1_CIE(View v) {
         Intent intent = new Intent(getApplicationContext(), JEC_Civil_1_CIE.class);
@@ -2487,7 +2487,7 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
     }
 
 
-//  CSE CIE's
+//  JEC CSE CIE's
 
     public void JEC_CSE_1_CIE(View v) {
         Intent intent = new Intent(getApplicationContext(), JEC_CSE_1_CIE.class);
@@ -2523,7 +2523,7 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
     }
 
 
-//  ELECTRICAL CIE SEMS
+//  JEC ELECTRICAL CIE SEMS
 
     public void JEC_Electrical_1_CIE(View v) {
         Intent intent = new Intent(getApplicationContext(), JEC_Electrical_1_CIE.class);
@@ -2559,7 +2559,7 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
     }
 
 
-//  INSTRUMENTATION CIE SEMS
+//  JEC INSTRUMENTATION CIE SEMS
 
     public void JEC_Instru_1_CIE(View v) {
         Intent intent = new Intent(getApplicationContext(), JEC_Instru_1_CIE.class);
