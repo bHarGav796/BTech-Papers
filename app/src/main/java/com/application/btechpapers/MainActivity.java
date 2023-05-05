@@ -2232,6 +2232,21 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
 
 
 
+//Golaghat Engineering College Branches
+
+    public void Internal_GEC_Branches(View v) {
+        Intent intent = new Intent(getApplicationContext(), Internal_Golaghat_Engineering_College.class);
+        startActivity(intent);
+    }
+
+// Bineshwar Brahma Engineering College Branches
+
+
+    public void BBEC_Branches(View v) {
+        Intent intent = new Intent(getApplicationContext(), Internal_BBEC_Branches.class);
+        startActivity(intent);
+    }
+
 
 
 
@@ -2396,17 +2411,6 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         Intent intent = new Intent(getApplicationContext(), GIMT_CSE_8_CSE.class);
         startActivity(intent);
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

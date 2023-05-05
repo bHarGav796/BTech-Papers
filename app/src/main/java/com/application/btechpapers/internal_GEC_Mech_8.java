@@ -1,22 +1,17 @@
 package com.application.btechpapers;
 
-        import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import android.graphics.Bitmap;
+import android.os.Bundle;
+import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 
-        import android.content.Intent;
-        import android.graphics.Bitmap;
-        import android.net.Uri;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.webkit.DownloadListener;
-        import android.webkit.WebView;
-        import android.webkit.WebViewClient;
-        import android.widget.ProgressBar;
-
-public class CSE_2_Maths extends AppCompatActivity {
+public class internal_GEC_Mech_8 extends AppCompatActivity {
 
     public WebView webView;
     public ProgressBar progressBar;
-
 
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,9 +22,7 @@ public class CSE_2_Maths extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setAllowFileAccess(true);
         webView.getSettings().setAllowContentAccess(true);
-
-
-        webView.loadUrl("https://drive.google.com/drive/folders/1VP0enDXTd6E2N9nerDNZX0f2Xvj5SOJd?usp=sharing");
+        webView.loadUrl("https://drive.google.com/open?id=1uI-P5KUSkCoDZTFIog5-HLi96Dgh9MQn&authuser=btechpapers777%40gmail.com&usp=drive_fs");
         webView.setWebViewClient(new WebViewClient(){
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
@@ -45,7 +38,5 @@ public class CSE_2_Maths extends AppCompatActivity {
                 setTitle(view.getTitle());
             }
         });
-
-
     }
 }

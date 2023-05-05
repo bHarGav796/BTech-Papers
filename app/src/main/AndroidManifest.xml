@@ -16,6 +16,78 @@
         android:theme="@style/Theme.PolytechnicPapers"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Internal_BBEC_Electrical_1"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Electrical_2"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Electrical_3"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Electrical_4"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Electrical_5"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Electrical_6"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Electrical_8"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Electrical_7"
+            android:exported="false" />
+        <activity
+            android:name=".BBEC_Internal_ELectrical_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_BBEC_Branches"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_11"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_8"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_7"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_6"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_5"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_3"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_2"
+            android:exported="false" />
+        <activity
+            android:name=".internal_GEC_Mech_4"
+            android:exported="false" />
+        <activity
+            android:name=".GEC_Mecha_4_CIE"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_GEC_Chemical_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_GEC_CSE_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_GEC_Civil_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_GEC_Mechanical_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".Internal_Golaghat_Engineering_College"
+            android:exported="false" />
+        <activity
             android:name=".ETC_4_ES"
             android:exported="false" />
         <activity

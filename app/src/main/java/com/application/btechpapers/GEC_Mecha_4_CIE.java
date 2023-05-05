@@ -12,7 +12,7 @@ package com.application.btechpapers;
         import android.webkit.WebViewClient;
         import android.widget.ProgressBar;
 
-public class CSE_2_Maths extends AppCompatActivity {
+public class GEC_Mecha_4_CIE extends AppCompatActivity {
 
     public WebView webView;
     public ProgressBar progressBar;
@@ -29,7 +29,7 @@ public class CSE_2_Maths extends AppCompatActivity {
         webView.getSettings().setAllowContentAccess(true);
 
 
-        webView.loadUrl("https://drive.google.com/drive/folders/1VP0enDXTd6E2N9nerDNZX0f2Xvj5SOJd?usp=sharing");
+        webView.loadUrl("https://drive.google.com/open?id=1su6NOOOV5sj7wo3C_tyxRW3SXQ9tqEp2&authuser=btechpapers777%40gmail.com&usp=drive_fs");
         webView.setWebViewClient(new WebViewClient(){
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
