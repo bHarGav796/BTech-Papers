@@ -40,14 +40,6 @@
                     android:textColor="#000"
                     android:fontFamily="@font/comfortaa_light"
                     android:textStyle="bold"/>
-                <!--            <TextView-->
-                <!--                android:layout_width="wrap_content"-->
-                <!--                android:layout_height="wrap_content"-->
-                <!--                android:text="@string/tag_line"-->
-                <!--                android:textStyle="bold"-->
-                <!--                android:textColor="#272727"-->
-                <!--                android:fontFamily="@font/comfortaa_light"-->
-                <!--                android:layout_marginTop="10dp"/>-->
 
 
             </LinearLayout>
@@ -278,6 +270,50 @@
 
 
 
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardCornerRadius="15dp"
+                                    android:layout_marginTop="20dp">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/green_gradient"
+
+                                        android:padding="10dp">
+
+                                        <TextView
+                                            android:id="@+id/DEC"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="10dp"
+                                            android:fontFamily="@font/comfortaa_light"
+
+                                            android:text="Dhemaji Engineering College"
+                                            android:textColor="#fff"
+                                            android:textSize="21sp"
+                                            android:textStyle="bold" />
+
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+
+
+                            </LinearLayout>
+
+
+
+
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -316,6 +352,16 @@
 
                                 </RelativeLayout>
                             </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -384,8 +430,7 @@
 
 
     <!--    Admob Banner Ads-->
-    # main_activity.xml
-    ...
+
 
     <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"

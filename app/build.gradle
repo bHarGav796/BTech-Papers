@@ -24,8 +24,8 @@ android {
         applicationId "com.application.btechpapers"
         minSdk 21
         targetSdk 32
-        versionCode 52
-        versionName "1.1.52"
+        versionCode 54
+        versionName "1.1.54"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

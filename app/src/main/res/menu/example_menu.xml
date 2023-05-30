@@ -4,11 +4,12 @@
 
 
 
-<item
-    android:id="@+id/livechat"
-    android:title="Live Chat Support"
-    app:showAsAction="ifRoom"
-    android:icon="@drawable/support"/>
+
+    <item
+        android:id="@+id/livechat"
+        android:title="Live Chat Support"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/support"/>
 
 
     <item

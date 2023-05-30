@@ -71,16 +71,4 @@ public class syllabus2 extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 }

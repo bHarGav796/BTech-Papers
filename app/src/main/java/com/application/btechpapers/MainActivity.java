@@ -17,6 +17,7 @@ import android.app.FragmentManager;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -98,7 +99,17 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
+
+//        DISABLE SCREENSHOT MODULE PLANTED HERE
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE,
+                WindowManager.LayoutParams.FLAG_SECURE
+                );
+
+
 
 
 
@@ -510,12 +521,18 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         fragmentTransaction.commit();
     }
 
-    public void civil8sub (View view) {
-        FragmentManager fragmentManager = getFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.mainContent, new Civil8Subjects());
-        fragmentTransaction.addToBackStack(null);
-        fragmentTransaction.commit();
+//    public void civil8sub (View view) {
+//        FragmentManager fragmentManager = getFragmentManager();
+//        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+//        fragmentTransaction.replace(R.id.mainContent, new Civil8Subjects());
+//        fragmentTransaction.addToBackStack(null);
+//        fragmentTransaction.commit();
+//    }
+
+
+    public void civil8sub(View v) {
+        Intent intent = new Intent(getApplicationContext(), Civil_8th_Subjects.class);
+        startActivity(intent);
     }
 
 
@@ -1598,49 +1615,7 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
 
 
 
-    // Civil 8th Sem Subjects OnClick
-
-    public void Civil_8_ASD(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_ASD.class);
-        startActivity(intent);
-    }
-
-    public void Civil_8_BridgeDesign(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_BridgeDesign.class);
-        startActivity(intent);
-    }
-
-    public void Civil_8_CEM(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_CEM.class);
-        startActivity(intent);
-    }
-
-    public void Civil_8_DOS(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_DOS.class);
-        startActivity(intent);
-    }
-
-    public void Civil_8_DRM(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_DRM.class);
-        startActivity(intent);
-    }
-
-    public void Civil_8_GT(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_GT.class);
-        startActivity(intent);
-    }
-    public void Civil_8_RSG(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_RSG.class);
-        startActivity(intent);
-    }
-
-    public void Civil_8_SRM(View v) {
-        Intent intent = new Intent(getApplicationContext(), Civil_8_SRM.class);
-        startActivity(intent);
-    }
-
-
-
+//   hehe
 
 
 
@@ -2213,6 +2188,44 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
 
     //AEC SEMS
 
+//    AEC All Branches Engineering Internal Semesters
+
+    public void AEC_Mech_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), AEC_Mech_Sems.class);
+        startActivity(intent);
+    }
+
+    public void AEC_Electrical_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), AEC_Electrical_Sems.class);
+        startActivity(intent);
+    }
+
+    public void AEC_Civil_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), AEC_Civil_Sems.class);
+        startActivity(intent);
+    }
+
+    public void AEC_ETC_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), AEC_ETC_Sems.class);
+        startActivity(intent);
+    }
+
+    public void AEC_Chem_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), AEC_Chem_Sems.class);
+        startActivity(intent);
+    }
+
+    public void AEC_Instru_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), AEC_Instru_Sems.class);
+        startActivity(intent);
+    }
+
+
+
+
+
+
+
     public void AEC_SEMS (View view) {
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -2412,6 +2425,27 @@ public class MainActivity<progressBar> extends AppCompatActivity implements InAp
         startActivity(intent);
     }
 
+//GIMT All Branches Engineering Internal Semesters
+
+    public void GIMT_Mecha_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), GIMT_Mecha_Sems.class);
+        startActivity(intent);
+    }
+
+    public void GIMT_Electrical_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), GIMT_Electrical_Sems.class);
+        startActivity(intent);
+    }
+
+    public void GIMT_Civil_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), GIMT_Civil_Sems.class);
+        startActivity(intent);
+    }
+
+    public void GIMT_ETC_Sems(View v) {
+        Intent intent = new Intent(getApplicationContext(), GIMT_ETC_Sems.class);
+        startActivity(intent);
+    }
 
 
 

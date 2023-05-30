@@ -1,17 +1,22 @@
 package com.application.btechpapers;
 
         import androidx.appcompat.app.AppCompatActivity;
+
+        import android.content.Intent;
         import android.graphics.Bitmap;
+        import android.net.Uri;
         import android.os.Bundle;
         import android.view.View;
+        import android.webkit.DownloadListener;
         import android.webkit.WebView;
         import android.webkit.WebViewClient;
         import android.widget.ProgressBar;
 
-public class GIMT_CSE_1_CSE extends AppCompatActivity {
+public class AEC_Mech_Sems extends AppCompatActivity {
 
     public WebView webView;
     public ProgressBar progressBar;
+
 
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +27,9 @@ public class GIMT_CSE_1_CSE extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setAllowFileAccess(true);
         webView.getSettings().setAllowContentAccess(true);
-        webView.loadUrl("https://drive.google.com/open?id=1INKOroyL3inVDQXAYDCGEN2Gj9fn1p6v&authuser=btechpapers777%40gmail.com&usp=drive_fs");
+
+
+        webView.loadUrl("https://drive.google.com/open?id=1v483kIjC-659vhcEUwHOelAVXRmJyLBk&usp=drive_fs");
         webView.setWebViewClient(new WebViewClient(){
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
@@ -38,5 +45,7 @@ public class GIMT_CSE_1_CSE extends AppCompatActivity {
                 setTitle(view.getTitle());
             }
         });
+
+
     }
 }

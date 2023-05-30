@@ -16,6 +16,40 @@
         android:theme="@style/Theme.PolytechnicPapers"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".GIMT_ETC_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".GIMT_Civil_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".GIMT_Electrical_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".GIMT_Mecha_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".AEC_Instru_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".AEC_Chem_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".AEC_ETC_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".AEC_Civil_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".AEC_Electrical_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".AEC_Mech_Sems"
+            android:exported="false" />
+        <activity
+            android:name=".Civil_8th_Subjects"
+            android:exported="false" />
+        <activity android:name="com.whatsapp.ContactPicker" />
+        <activity
             android:name=".Internal_BBEC_Electrical_1"
             android:exported="false" />
         <activity
